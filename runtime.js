@@ -61,24 +61,25 @@ console.log('Results for the largeArray');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
 
+/* 
+first run
+Results for the extraLargeArray
+insert 834.925858 ms
+append 3.345725 ms
 
-// first run
-// Results for the extraLargeArray
-// insert 834.925858 ms
-// append 3.345725 ms
+Results for the tinyArray
+insert 41.165 μs
+append 89.776 μs
 
-// Results for the tinyArray
-// insert 41.165 μs
-// append 89.776 μs
+Results for the smallArray
+insert 52.428 μs
+append 106.726 μs
 
-// Results for the smallArray
-// insert 52.428 μs
-// append 106.726 μs
+Results for the mediumArray
+insert 163.689 μs
+append 148.826 μs
 
-// Results for the mediumArray
-// insert 163.689 μs
-// append 148.826 μs
-
-// Results for the largeArray
-// insert 6.58043 ms
-// append 604.407 μs
+Results for the largeArray
+insert 6.58043 ms
+append 604.407 μs
+*\
