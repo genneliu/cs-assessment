@@ -34,3 +34,26 @@ because the reduce() method still has to iterate through the array
 */ 
 
 
+
+
+
+
+
+//find unique characters
+function hasUniqueCharacters(word){
+    let count = {};
+    for (let i=0; i < word.length; i++) {
+        if (count[word[i]]) {
+            return false
+        }
+        count[word[i]] = true;
+    }
+    return true;
+}
+
+console.log(hasUniqueCharacters("Apple"))
+console.log(hasUniqueCharacters("Orange"))
+
+/*
+time complexity of O(n) because the function loops through the characters in the word
+*/
